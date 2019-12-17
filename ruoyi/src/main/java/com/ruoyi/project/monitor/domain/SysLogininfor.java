@@ -1,17 +1,18 @@
 package com.ruoyi.project.monitor.domain;
 
-import java.util.Date;
 import com.ruoyi.framework.aspectj.lang.annotation.Excel;
 import com.ruoyi.framework.aspectj.lang.annotation.Excel.ColumnType;
 import com.ruoyi.framework.web.domain.BaseEntity;
 
+import java.util.Date;
+
 /**
  * 系统访问记录表 sys_logininfor
- * 
+ *
  * @author ruoyi
  */
-public class SysLogininfor extends BaseEntity
-{
+public class SysLogininfor extends BaseEntity  {
+
     private static final long serialVersionUID = 1L;
 
     /** ID */
